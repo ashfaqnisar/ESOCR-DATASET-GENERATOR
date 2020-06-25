@@ -1,0 +1,160 @@
+[
+  {
+    "provider": {
+      "healthCare": "COMTEXT",
+      "name": "Ramsey",
+      "NPI": [
+        1,
+        4,
+        2,
+        5,
+        8,
+        4,
+        0,
+        4,
+        3,
+        1
+      ],
+      "address": {
+        "line1": "244 Hanson Place,Forestburg",
+        "line2": ", Washington, 119446",
+        "other": "Ruckersville, Hawaii, 495393"
+      },
+      "city": "Wilsonia",
+      "state": "Illinois",
+      "zip": 261024,
+      "number": "+1 (878) 486-2883",
+      "faxNumber": 9313098064,
+      "languagePreference": "English"
+    },
+    "order": {
+      "icdCode": "",
+      "dateOfOrder": "10/12/2015"
+    },
+    "patient": {
+      "id": "5ef45e25ad06dc8d5a7d4ad1",
+      "firstName": "Duffy",
+      "lastName": "Avery",
+      "dob": "06/08/1988",
+      "sex": "Female",
+      "number": "+1 (939) 462-3103",
+      "language": "English",
+      "shippingAddress": {
+        "address": {
+          "line1": "185 Schroeders Avenue",
+          "line2": "Waverly, New Mexico, 441230",
+          "other": "Terlingua, Indiana, 495434"
+        },
+        "city": "Freelandville",
+        "state": "Utah",
+        "zip": 909215
+      },
+      "billingAddress": {
+        "address": {
+          "line1": "643 Crescent Street, Finderne",
+          "line2": "Louisiana, 829757",
+          "other": "Forbestown, Nevada, 936498"
+        },
+        "city": "Crucible",
+        "state": "Rhode Island",
+        "zip": 758648
+      },
+      "isHispanicLatinoOrigin": true,
+      "race": "White"
+    },
+    "billing": {
+      "isESInsurance": true,
+      "policyHolder": {
+        "name": "Craig",
+        "dob": "01/17/1982",
+        "relationship": "Other"
+      },
+      "primaryInsurance": "Calcu",
+      "primaryInsuranceType": "Private",
+      "claimsSubmissionAddress": "714 Newel Street, Vermont, 626193",
+      "policyNumber": 742710,
+      "groupNumber": 701259,
+      "plan": "platinum",
+      "priorAuthorizationCode": 569443927
+    }
+  },
+  {
+    "provider": {
+      "healthCare": "ACUMENTOR",
+      "name": "Obrien",
+      "NPI": [
+        1,
+        4,
+        4,
+        5,
+        2,
+        7,
+        9,
+        7,
+        2,
+        4
+      ],
+      "address": {
+        "line1": "948 Seigel Street,Greenock",
+        "line2": ", Arkansas, 239565",
+        "other": "Ballico, Ohio, 219538"
+      },
+      "city": "Coyote",
+      "state": "Puerto Rico",
+      "zip": 614176,
+      "number": "+1 (926) 507-3964",
+      "faxNumber": 9206428176,
+      "languagePreference": "English"
+    },
+    "order": {
+      "icdCode": "",
+      "dateOfOrder": "02/17/2020"
+    },
+    "patient": {
+      "id": "5ef45e253a955933d1392483",
+      "firstName": "Bates",
+      "lastName": "Wagner",
+      "dob": "02/10/2004",
+      "sex": "Female",
+      "number": "+1 (977) 432-2279",
+      "language": "English",
+      "shippingAddress": {
+        "address": {
+          "line1": "426 Cyrus Avenue",
+          "line2": "Goochland, Wyoming, 163250",
+          "other": "Gouglersville, Marshall Islands, 821847"
+        },
+        "city": "Greenbush",
+        "state": "North Dakota",
+        "zip": 346766
+      },
+      "billingAddress": {
+        "address": {
+          "line1": "771 Oliver Street, Springdale",
+          "line2": "New Hampshire, 348635",
+          "other": "Stewartville, Tennessee, 576208"
+        },
+        "city": "Welda",
+        "state": "Florida",
+        "zip": 476266
+      },
+      "isHispanicLatinoOrigin": false,
+      "race": "Native Hawaiian"
+    },
+    "billing": {
+      "isESInsurance": false,
+      "policyHolder": {
+        "name": "Vaughan",
+        "dob": "03/12/1981",
+        "relationship": "Spouse"
+      },
+      "primaryInsurance": "Pholio",
+      "primaryInsuranceType": "Private",
+      "claimsSubmissionAddress": "917 Kenmore Court, Guam, 784650",
+      "policyNumber": 682807,
+      "groupNumber": 303083,
+      "plan": "platinum",
+      "priorAuthorizationCode": 975666207
+    }
+  }
+]
