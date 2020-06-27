@@ -30,12 +30,14 @@ function processForm(form, index) {
     var patientGroup = doc.layerSets.getByName('patient')
     var providerGroup = doc.layerSets.getByName('provider')
     var billingGroup = doc.layerSets.getByName('billing');
+    var orderGroup = doc.layerSets.getByName('order')
 
     processPatient(patientGroup, form)
     processProvider(providerGroup, form)
     processBilling(billingGroup, form)
+    processOrder(orderGroup, form)
 
-
+    
     saveGroup(patientGroup, index, '-patient')
 }
 
@@ -172,6 +174,19 @@ function processBilling(billingGroup, form) {
 
     priorAuthorizationCodeLayer.textItem.contents = form.billing.priorAuthorizationCode
     priorAuthorizationCodeLayer.textItem.font = getRandomFont()
+
+}
+
+function processOrder(orderGroup, form) {
+    var icdCodeLayer = orderGroup.layers.getByName("icdCode")
+    var dateOfOrderLayer = orderGroup.layers.getByName("dateOfOrder")
+   
+
+    icdCodeLayer.textItem.contents = form.order.icdCode
+    icdCodeLayer.textItem.font = getRandomFont()
+
+    dateOfOrderLayer.textItem.contents = form.order.dateOfOrder
+    dateOfOrderLayer.textItem.font = getRandomFont()
 
 }
 
