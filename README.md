@@ -40,6 +40,9 @@ Building a **highly accurate OCR solution** that will take **manually filled for
 
 As the exact sciences company **process thousands of the forms** every week received from the **fax**. The data received in the form should be **digitalized**.  But, **manually digitalizing** the form would contain **human error** & **time-consuming**.  So, they would like to **automate this process** by placing the OCR system. The exact sciences company **already has an OCR system** in place but is **somewhat less accurate** and **takes more time.**
 
+<p align="center">
+  <img src="https://i.imgur.com/P7Q0VG1.png" /> 
+</p>
 
 ## Objectives
 ####  • Building an OCR system, which would be faster and accurate compared to the already present OCR system.
@@ -74,6 +77,15 @@ We built an <a href="https://github.com/ashfaqnisar/ESOCR-API" target="_blank">*
 
 Coming to the **<a href="https://esocr.now.sh">frontend</a>**, we created a **dashboard** from which the **user can upload the scanned files** to the API which would then be processed and **results will be provided to the user in a digital form**. The user can also **update the data from the digital form.** 
 
+<table>
+<tr>
+<td>
+<p align="center">
+  <img src="https://i.imgur.com/cjZEixP.gif" /> 
+</p>
+</td>
+</tr>
+</table>
 
 ## Features
 ### Handling Handwritten Font: 
@@ -94,6 +106,8 @@ Coming to **response time**, we were able to **process the whole document** unde
 | | | 
 |:-------------------------:|:-------------------------:|
 |<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://i.imgur.com/97opSZO.jpg">  |  <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://i.imgur.com/imSR8DY.jpg">|
+
+<img src="https://i.imgur.com/hGd7GWB.jpg" />
 
 The front end of the Esocr is **very simple** and **straight forward** and **can be customized easily ** according to our requirements.  All of the **processed forms** of the user are available in the **ESOCR Web App**. 
 
@@ -200,6 +214,7 @@ As the web app, was **not able to render the PDF/other file formats directly** a
 -   **Increasing the training data** for the **OCR detection** from **150 images to 500 images**
     
 -   Hosting the **docker container** on our **cloud** to **increase the speed** of the **processing of the documents.**
+
 
 ## Installation
  1.  After **cloning the repo** to your system, **open up the project folder**.
