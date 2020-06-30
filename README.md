@@ -33,7 +33,7 @@
 ---
 ## Demo
 
-### <a href="https://esocr-api.herokuapp.com/" target="_blank">ESOCR API Demo</a> • <a href="https://github.com/ashfaqnisar/esocr-api" target="_blank">ESOCR API Repo</a>  •  <a href="https://esocr.now.sh" target="_blank">ESOCR Frontend Demo </a> • <a href="https://github.com/ashfaqnisar/esocr" target="_blank">ESOCR Frontend Repo</a>
+### <a href="https://esocr-api.ezerka.in" target="_blank">ESOCR API Demo</a> • <a href="https://github.com/ashfaqnisar/esocr-api" target="_blank">ESOCR API Repo</a>  •  <a href="https://esocr.now.sh" target="_blank">ESOCR Frontend Demo </a> • <a href="https://github.com/ashfaqnisar/esocr" target="_blank">ESOCR Frontend Repo</a>
 
 ## Problem Statement: 
 Building a **highly accurate OCR solution** that will take **manually filled form** as an **input** and provide the **data in the digital form**. 
